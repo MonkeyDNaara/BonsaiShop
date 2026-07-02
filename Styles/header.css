@@ -17,6 +17,7 @@
   color: green; /* definiert die Schriftfarbe */
   font-size: 25px; /*definiert die Schriftgroeße */
   /* font-weight: 600; */ /*definier Schrift Fett oder Schlank */
+    justify-self: center;
 
 }
 
@@ -46,5 +47,6 @@
 
   width: 40px;  /* Buttongroeße fuer menu definieren */
   height: 24px;
+  justify-self: start;
   
 }
