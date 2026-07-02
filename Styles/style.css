@@ -13,6 +13,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -20,6 +24,7 @@ a {
 
 a:hover {
   color: blue;
+  cursor: pointer;
 }
 
 footer {
