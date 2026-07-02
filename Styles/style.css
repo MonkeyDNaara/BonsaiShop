@@ -1,0 +1,13 @@
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  color: inherit;
+}
+
+h1 {
+  color: purple;
+}
