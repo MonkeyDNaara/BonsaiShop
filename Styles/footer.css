@@ -10,16 +10,16 @@
   width: 100vw;
   display: flex;
   justify-content: space-around;
-  gap: 1rem;
+  gap: 0.5rem;
   justify-content: center;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .footer-item {
-  margin: 0rem 1rem;
+  margin: 0rem 0.5rem;
 }
 
 .footer-copyright {
   color: grey;
-  margin: 1rem;
+  margin: 0.5rem;
 }

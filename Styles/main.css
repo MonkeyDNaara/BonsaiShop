@@ -1,0 +1,28 @@
+.main-container {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-container img {
+  width: 50vw;
+  border-radius: 10%;
+}
+
+.section-head {
+  color: rgb(4, 123, 61);
+}
+
+.section {
+  padding: 0.5rem;
+  width: 100vw;
+  margin-bottom: 10px;
+}
+
+.section p {
+  min-width: 200px;
+}
+
+.section h3 {
+  margin-top: 5px;
+}
