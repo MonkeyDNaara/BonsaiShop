@@ -6,8 +6,6 @@
   margin: 0px;
   padding: 0px;
   color: inherit;
+  box-sizing: border-box;
 }
 
-h1 {
-  color: purple;
-}
