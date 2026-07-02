@@ -33,6 +33,8 @@
   background-color: whitesmoke; /* definiert die Buttonfarbe */
   font-size: 14px; /* definiert die Groeße des Buttoninhalts */
   cursor: pointer; /* macht den curser bei Laptopview zur Hand wenn man mit der Maus drueber geht */
+  text-decoration: none; /* verhindert dass die Buttonschrift blau wird */
+  color: black; /* macht die schrift schwarz */
   
 }
 
@@ -47,6 +49,6 @@
 
   width: 40px;  /* Buttongroeße fuer menu definieren */
   height: 24px;
-  justify-self: start;
+  justify-self: start; /* richtet den Butten nach links aus */
   
 }
