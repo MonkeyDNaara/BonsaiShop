@@ -1,0 +1,50 @@
+.header {
+
+  background-color: lightgray; /* Hintergrundfarbe*/
+  display: grid;      /* Laesst die Elemente nebeneinander erscheinen */
+  grid-template-columns: 60px 1fr 60px;
+  align-items: center; /* Zentriert die Elemente auf der vertikalen Achse */
+  justify-content: space-between; /* Nutzt die gesamte laenge und fuegt zwischen die Elemente gleichmaeßigen Abstand ein */
+  height: 64px; /* definiert die Hoehe des Headers und macht es unabhaengig von der groeße des Inhalts */
+  padding: 0 16px; /* fuegt einen Abstand links und rechts von 16px ein */
+  border: 1px solid black; /* fuegt einen Rahmen hinzu*/
+  border-radius: 0 0 12px 12px; /* fuegt einen Radius unten hinzu, Uhrzeigersinn */
+
+}
+
+.header__title {
+
+  color: green; /* definiert die Schriftfarbe */
+  font-size: 25px; /*definiert die Schriftgroeße */
+  /* font-weight: 600; */ /*definier Schrift Fett oder Schlank */
+
+}
+
+.header__button {
+
+  width: 40px; /* definiert die Buttongroeße */
+  height: 20px; /* definiert die Buttongroeße */
+  border-radius: 5px; /* definiert den Buttonradius */
+  display: flex; /* Butteninhalt definieren und Zentrieren */
+  align-items: center;  /* Zentrieren vertikal */
+  justify-content: center; /* Zentrieren horizontal */
+  border: 1px solid black; /* definiert den Buttonrand */
+  background-color: whitesmoke; /* definiert die Buttonfarbe */
+  font-size: 14px; /* definiert die Groeße des Buttoninhalts */
+  cursor: pointer; /* macht den curser bei Laptopview zur Hand wenn man mit der Maus drueber geht */
+  
+}
+
+.header__button--login {
+
+  width: 60px;  /* Buttongroeße fuer Login definieren */
+  height: 24px;
+
+}
+
+.header__button--menu {
+
+  width: 40px;  /* Buttongroeße fuer menu definieren */
+  height: 24px;
+  
+}
