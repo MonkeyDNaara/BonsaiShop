@@ -4,7 +4,11 @@
   grid-template-columns: 80px 1fr 80px;
   align-items: center; /* Zentriert die Elemente auf der vertikalen Achse */
   /* justify-content: space-between; Nutzt die gesamte laenge und fuegt zwischen die Elemente gleichmaeßigen Abstand ein */
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
   height: 64px; /* definiert die Hoehe des Headers und macht es unabhaengig von der groeße des Inhalts */
   padding: 0 16px; /* fuegt einen Abstand links und rechts von 16px ein */
   border: 1px solid black; /* fuegt einen Rahmen hinzu*/
