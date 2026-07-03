@@ -36,7 +36,7 @@ h2 {
 }
 
 .header__title {
-  color: green; /* definiert die Schriftfarbe */
+  color: #00b289;
   font-size: 30px; /* definiert die Schriftgroeße */
   font-weight: 600; /* definier Schrift Fett oder Schlank */
 }

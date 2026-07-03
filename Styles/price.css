@@ -23,7 +23,7 @@
   border: 2px solid black;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  background-color: #8aeed7;
+  background-image: linear-gradient(to right, white, #b5f5e6, white);
   display: flex;
   justify-content: center;
 }
