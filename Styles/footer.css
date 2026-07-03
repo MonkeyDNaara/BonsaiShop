@@ -10,12 +10,13 @@
 }
 
 .footer-item-container {
-  width: 100vw;
+  width: 80%;
+  max-width: 500px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 3fr));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
   justify-content: center;
-  text-align: center;
   align-items: center;
+  text-align: center;
 }
 
 .footer-item {

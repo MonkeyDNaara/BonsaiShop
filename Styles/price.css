@@ -12,8 +12,10 @@
 
 .prices-item-container {
   display: grid;
-  grid-template-columns: repeat(auto);
-  justify-content: center;
+  width: 75%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+  align-items: center;
+  justify-items: center;
 }
 
 .prices-item-frame {
