@@ -8,11 +8,38 @@
   </head>
   <body>
     <header class="header">
+      <button class="header__button header__button--menu">☰</button>
+      <h1 class="header__title">Bonsai Shop</h1>
+      <a class="header__button header__button--login" href="/login.html"
+        >Login</a
+      >
+    </header>
 
-  <button class="header__button header__button--menu">☰</button>
-  <h1 class="header__title">Bonsai Shop</h1>
-  <a class="header__button header__button--login" href="/login.html">Login</a>
+    <main>
+      <div class="login-container">
+        <h2>Anmelden</h2>
+        <form class="login-form">
+          <label for="login-user">Benutzername oder E-Mail</label>
+          <input
+            id="login-user"
+            type="email"
+            placeholder="example@example.com"
+            required
+          />
 
-</header>
+          <label class="login-form__password-label" for="login-password"
+            >Passwort</label
+          >
+          <input
+            id="login-password"
+            type="password"
+            placeholder="Passwort"
+            required
+          />
+
+          <button class="login-form__button" type="submit">Anmelden</button>
+        </form>
+      </div>
+    </main>
   </body>
 </html>
