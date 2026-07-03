@@ -31,3 +31,9 @@ a:hover {
 footer {
   background-color: var(--main-background-color);
 }
+
+.header__title {
+  color: green; /* definiert die Schriftfarbe */
+  font-size: 30px; /* definiert die Schriftgroeße */
+  font-weight: 600; /* definier Schrift Fett oder Schlank */
+}
