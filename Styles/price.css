@@ -3,11 +3,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .prices-header {
-  margin: 1rem;
+  margin: 1rem 1rem 3rem 1rem;
 }
 
 .prices-item-container {
@@ -20,7 +19,8 @@
 }
 
 .prices-item-frame {
-  min-width: 250px;
+  width: 250px;
+  height: 320px;
   padding: 1rem;
   margin: 1rem;
   border: 2px solid black;
@@ -29,6 +29,7 @@
   background-image: linear-gradient(to right, white, #b5f5e6, white);
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .prices-item {
@@ -38,8 +39,20 @@
 .prices-item-price {
   padding: 0.5rem;
 }
+.priece-item-list-container {
+  display: flex;
+  text-align: left;
+}
 
 .prices-item-list {
   list-style-type: "✓";
   padding: 0.2rem 0.5rem;
+}
+
+.item-price {
+  font-size: xx-large;
+}
+
+.prices-item-frame:hover {
+  transform: scale(1.1);
 }
