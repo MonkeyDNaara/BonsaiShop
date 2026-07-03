@@ -1,9 +1,10 @@
 .header {
   background-color: lightgray; /* Hintergrundfarbe*/
   display: grid; /* Laesst die Elemente nebeneinander erscheinen */
-  grid-template-columns: 60px 1fr 60px;
+  grid-template-columns: 80px 1fr 80px;
   align-items: center; /* Zentriert die Elemente auf der vertikalen Achse */
-  justify-content: space-between; /* Nutzt die gesamte laenge und fuegt zwischen die Elemente gleichmaeßigen Abstand ein */
+  /* justify-content: space-between; Nutzt die gesamte laenge und fuegt zwischen die Elemente gleichmaeßigen Abstand ein */
+  position: relative;
   height: 64px; /* definiert die Hoehe des Headers und macht es unabhaengig von der groeße des Inhalts */
   padding: 0 16px; /* fuegt einen Abstand links und rechts von 16px ein */
   border: 1px solid black; /* fuegt einen Rahmen hinzu*/
@@ -11,12 +12,13 @@
 }
 
 .header__title {
-  color: green; /* definiert die Schriftfarbe */
-  /* font-size: 25px; definiert die Schriftgroeße */
-  /* font-weight: 600; */ /*definier Schrift Fett oder Schlank */
   justify-self: center;
+  align-items: center;
   text-decoration: none;
   font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .header__button {
@@ -46,11 +48,12 @@
 }
 
 .header__button:hover {
-  transform: scale(1.05);
+  color: inherit;
+  transform: scale(1.05); /* 3D-Effekt */
 }
 
 .header__button:active {
-  transform: scale(0.92);
+  transform: scale(0.92); /* 3D-Effekt */
 }
 
 .header__dropdown {
@@ -62,4 +65,8 @@
 }
 .header__menu {
   position: relative;
+}
+
+.header__title:hover {
+  color: inherit;
 }

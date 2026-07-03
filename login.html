@@ -8,8 +8,20 @@
   </head>
   <body>
     <header class="header">
-      <button class="header__button header__button--menu">☰</button>
-      <a class="header__title" href="/index.html">Bonsai Shop</a>
+      <div class="header__menu">
+        <button class="header__button header__button--menu">☰</button>
+
+        <nav class="header__dropdown">
+          <ul>
+            <a href="/index.html">Home</a>
+            <a href="#">Produkte</a>
+            <a href="#">Templates</a>
+            <a href="#">Preise</a>
+            <a href="#">Reviews</a>
+          </ul>
+        </nav>
+      </div>
+      <h1><a class="header__title" href="/index.html">Bonsai Shop</a></h1>
       <a class="header__button header__button--login" href="/login.html"
         >Login</a
       >
@@ -41,5 +53,19 @@
         </form>
       </div>
     </main>
+    <footer>
+      <div class="footer-container">
+        <nav>
+          <div class="footer-item-container">
+            <div class="footer-item"><a href="">About Us</a></div>
+            <div class="footer-item"><a href="">Impressum</a></div>
+            <div class="footer-item"><a href="">Social Networks</a></div>
+            <div class="footer-item"><a href="">Carreer</a></div>
+            <div class="footer-item"><a href="">Support</a></div>
+          </div>
+        </nav>
+        <div class="footer-copyright">© by Elias & Niko</div>
+      </div>
+    </footer>
   </body>
 </html>
