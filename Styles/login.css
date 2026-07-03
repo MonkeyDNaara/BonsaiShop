@@ -20,6 +20,7 @@
   height: 24px;
   border-radius: 5px;
   border: 1px solid black;
+  padding: 15px 10px;
 }
 
 .login-form__button {
