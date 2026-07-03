@@ -2,6 +2,7 @@
 @import url("main.css");
 @import url("footer.css");
 @import url("login.css");
+@import url("price.css");
 
 :root {
   --main-background-color: lightgrey;
@@ -16,6 +17,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
 }
 
 a {
@@ -28,8 +30,9 @@ a:hover {
   cursor: pointer;
 }
 
-footer {
-  background-color: var(--main-background-color);
+h1,
+h2 {
+  color: #00b289;
 }
 
 .header__title {

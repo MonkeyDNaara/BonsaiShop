@@ -1,22 +1,26 @@
 .footer-container {
   width: 100%;
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
+  border-radius: 12px 12px 0px 0px;
+  background-color: lightgrey;
 }
 
 .footer-item-container {
   width: 100vw;
-  display: flex;
-  justify-content: space-around;
-  gap: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 3fr));
   justify-content: center;
-  margin: 0.5rem;
+  text-align: center;
+  align-items: center;
 }
 
 .footer-item {
-  margin: 0rem 0.5rem;
+  padding: 1rem;
+  min-width: 100%;
 }
 
 .footer-copyright {
