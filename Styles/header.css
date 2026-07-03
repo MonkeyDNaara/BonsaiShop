@@ -108,3 +108,8 @@
 .header__dropdown-list a:active {
   transform: scale(0.92);
 }
+
+.header__title {
+  font-size: 30px; /* definiert die Schriftgroeße */
+  font-weight: 600; /* definier Schrift Fett oder Schlank */
+}
