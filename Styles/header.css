@@ -39,12 +39,14 @@
 .header__button--login {
   width: 60px; /* Buttongroeße fuer Login definieren */
   height: 24px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .header__button--menu {
   width: 40px; /* Buttongroeße fuer menu definieren */
   height: 24px;
   justify-self: start; /* richtet den Butten nach links aus */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .header__button:hover {
@@ -87,4 +89,17 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.header__dropdown-list a:hover {
+  /* color: inherit; */
+  transform: scale(1.05);
+}
+
+.header__dropdown-list a {
+  display: block;
+}
+
+.header__dropdown-list a:active {
+  transform: scale(0.92);
 }
