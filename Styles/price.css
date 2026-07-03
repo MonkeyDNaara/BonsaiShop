@@ -13,6 +13,7 @@
 .prices-item-container {
   display: grid;
   width: 75%;
+  max-width: 750px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
   align-items: center;
   justify-items: center;
