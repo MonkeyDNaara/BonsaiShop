@@ -12,7 +12,7 @@
 
 .header__title {
   color: green; /* definiert die Schriftfarbe */
-  font-size: 25px; /*definiert die Schriftgroeße */
+  /* font-size: 25px; definiert die Schriftgroeße */
   /* font-weight: 600; */ /*definier Schrift Fett oder Schlank */
   justify-self: center;
   text-decoration: none;
