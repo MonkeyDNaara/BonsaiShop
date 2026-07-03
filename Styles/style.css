@@ -3,6 +3,7 @@
 @import url("footer.css");
 @import url("login.css");
 @import url("price.css");
+@import url("header.css");
 
 :root {
   --main-background-color: lightgrey;
@@ -44,7 +45,6 @@ h2 {
 }
 
 .header__title {
-  color: #00b289;
   font-size: 30px; /* definiert die Schriftgroeße */
   font-weight: 600; /* definier Schrift Fett oder Schlank */
 }
