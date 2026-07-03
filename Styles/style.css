@@ -3,7 +3,6 @@
 @import url("footer.css");
 @import url("login.css");
 @import url("price.css");
-@import url("header.css");
 
 :root {
   --main-background-color: lightgrey;
@@ -19,7 +18,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
-  padding-top: 80px;
+  padding-top: 90px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -42,9 +41,4 @@ a:hover {
 h1,
 h2 {
   color: #00b289;
-}
-
-.header__title {
-  font-size: 30px; /* definiert die Schriftgroeße */
-  font-weight: 600; /* definier Schrift Fett oder Schlank */
 }
